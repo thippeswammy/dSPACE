@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=Signalprocessing1.rta
+RTP=1
+
+[1]
+ID=b8ff2a51-d9e8-482e-b050-d0cbdf30e98c
+Type=DSRTPC
+ServiceID=1
+TraceFile=SignalProc.trc
+
