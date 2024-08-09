@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=DigitalSignalSendingReceiving1.rta
+RTP=1
+
+[1]
+ID=c41d3507-c421-4621-a5bc-a225a7542d7f
+Type=DSRTPC
+ServiceID=1
+TraceFile=DigitalSignalSendingReceiving1.trc
+

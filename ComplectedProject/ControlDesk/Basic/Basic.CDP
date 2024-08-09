@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk 23.2</creator>
+	<majorversion type="key">23</majorversion>
+	<minorversion type="key">2</minorversion>
+	<maintenanceversion type="key">0</maintenanceversion>
+	<specialbuildversion type="key"/>
+	<releasename type="key">2023-B</releasename>
+	<project>
+		<Creator type="key">ControlDesk</Creator>
+		<MigrationHistory type="key"/>
+		<Name type="key">Basic.CDP</Name>
+		<DisplayName type="key">Basic</DisplayName>
+		<Flags type="key">4096</Flags>
+		<Type type="key">1</Type>
+		<UniqueID type="key">538847064</UniqueID>
+		<EntityID type="key">{50DBDA38-6F84-457F-AEC3-1E78F779A39D}</EntityID>
+		<ItemInfoDate type="key">2024-07-12 15:58:27</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		<item>
+			<Targets type="key">project</Targets>
+			<Name type="key">Basic</Name>
+			<DisplayName type="key">Basic</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">883068359</UniqueID>
+			<EntityID type="key">{F1C8CC68-91CB-4867-94AB-EC36C9909702}</EntityID>
+			<ItemInfoDate type="key">2024-07-12 15:58:27</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			<item>
+				<Docs type="key">.doc,.docx,.pdf</Docs>
+				<Name type="key">Specifications</Name>
+				<DisplayName type="key">Specifications</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">674385181</UniqueID>
+				<EntityID type="key">{F75E1D23-291B-4063-8D8A-74BA58F976FA}</EntityID>
+				<ItemInfoDate type="key">2024-07-12 15:58:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.doc,.docx,.pdf</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Docs type="key">.mpp</Docs>
+				<Name type="key">Project Plans</Name>
+				<DisplayName type="key">Project Plans</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">497100086</UniqueID>
+				<EntityID type="key">{A3879665-2C93-4B7B-92EF-46C0A074760F}</EntityID>
+				<ItemInfoDate type="key">2024-07-12 15:58:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.mpp</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">pythonscriptcomponent</Targets>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">422837219</UniqueID>
+				<EntityID type="key">{94F806BD-7AB1-4D4A-9A23-4118EC4BC4D8}</EntityID>
+				<ItemInfoDate type="key">2024-07-12 15:58:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Description Sets</Name>
+				<DisplayName type="key">Signal Description Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">44101793</UniqueID>
+				<EntityID type="key">{E2E96FE9-B0A9-4A57-86FD-E7D749B0DF78}</EntityID>
+				<ItemInfoDate type="key">2024-07-12 15:58:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">AutomationCustomData.json</Name>
+			<DisplayName type="key">AutomationCustomData.json</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">4</Type>
+			<UniqueID type="key">803494120</UniqueID>
+			<EntityID type="key">{7F1F64D9-6202-4227-A416-0101953D2838}</EntityID>
+			<ItemInfoDate type="key">2024-07-12 15:58:27</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<ExtendedFlags type="key">4</ExtendedFlags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">909976826</UniqueID>
+			<EntityID type="key">{F083FC13-4881-495E-B920-F95FDB64DDBD}</EntityID>
+			<ItemInfoDate type="key">2024-07-12 15:58:28</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			<item>
+				<Name type="key">Project.events</Name>
+				<DisplayName type="key">Project.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">415174433</UniqueID>
+				<EntityID type="key">{A8604007-ACAE-44BD-88F7-B80A72DB2DBD}</EntityID>
+				<ItemInfoDate type="key">2024-07-12 15:58:28</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+		</item>
+	</project>
+	<experiments>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<MigrationHistory type="key"/>
+			<Name type="key">AnalogSignalSendingReceiving1.CDE</Name>
+			<DisplayName type="key">AnalogSignalSendingReceiving1</DisplayName>
+			<Path type="key">.\AnalogSignalSendingReceiving1</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">321009383</UniqueID>
+			<EntityID type="key">{E56CFFBD-1B13-49F5-858C-0FCC846D9403}</EntityID>
+			<ItemInfoDate type="key">2024-07-12 15:58:27</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		</experiment>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<MigrationHistory type="key"/>
+			<Name type="key">DigitalSignalSendingReceiving1.CDE</Name>
+			<DisplayName type="key">DigitalSignalSendingReceiving1</DisplayName>
+			<Path type="key">.\DigitalSignalSendingReceiving1</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">552657802</UniqueID>
+			<EntityID type="key">{047E9E7E-AFF3-4710-AA06-82A10CDA5F9C}</EntityID>
+			<ItemInfoDate type="key">2024-07-12 16:15:06</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		</experiment>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<MigrationHistory type="key"/>
+			<Name type="key">DigitalSignalSendingReceiving2.CDE</Name>
+			<DisplayName type="key">DigitalSignalSendingReceiving2</DisplayName>
+			<Path type="key">.\DigitalSignalSendingReceiving2</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">1050378659</UniqueID>
+			<EntityID type="key">{67360FFF-90D0-4516-B654-682F872DDABE}</EntityID>
+			<ItemInfoDate type="key">2024-07-12 16:42:05</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		</experiment>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<MigrationHistory type="key"/>
+			<Name type="key">Dashboard.CDE</Name>
+			<DisplayName type="key">Dashboard</DisplayName>
+			<Path type="key">.\Dashboard</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">54074985</UniqueID>
+			<EntityID type="key">{0E7C2493-EE1B-4F20-AAC0-B404FDD453FA}</EntityID>
+			<ItemInfoDate type="key">2024-07-12 17:20:08</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		</experiment>
+	</experiments>
+	<ProjectExperiment>
+		<LastActiveExperiment type="key">Dashboard</LastActiveExperiment>
+	</ProjectExperiment>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<AutomaticDownload/>
+	</DataSetManager>
+	<PlatformManagement/>
+	<DiagnosticsManagement/>
+	<Instrumentation Version="1">
+		<UniqueIds Version="3">
+			<Count type="key">2</Count>
+			<File1 type="key">DigitalSignalSendingReceiving2/Layout1</File1>
+			<Id1 type="key">0</Id1>
+			<File2 type="key">Dashboard/Dashboard</File2>
+			<Id2 type="key">1</Id2>
+		</UniqueIds>
+	</Instrumentation>
+	<VariablesManagement/>
+	<MeasureDataManagement/>
+	<MeasurementConfiguration/>
+	<BusNavigator/>
+	<SignalEditor/>
+	<XILAPIEESPort/>
+	<PythonScriptComponent/>
+</Root>
