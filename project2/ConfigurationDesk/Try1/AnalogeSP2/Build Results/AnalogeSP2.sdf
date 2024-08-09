@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=AnalogeSP2.rta
+RTP=1
+
+[1]
+ID=aec0fe86-9069-4b91-9da3-8b239293538d
+Type=DSRTPC
+ServiceID=1
+TraceFile=AnalogeSP2.trc
+

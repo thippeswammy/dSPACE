@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=Car23WithdSPACE.rta
+RTP=1
+
+[1]
+ID=311cf1f0-59de-4bd6-b3b0-fab0abd37c96
+Type=DSRTPC
+ServiceID=1
+TraceFile=Car23withDspace.trc
+

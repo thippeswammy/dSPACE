@@ -1,0 +1,42 @@
+[
+   {
+      "Key": "MetaData",
+      "Value": [
+         {
+            "Key": "ApplicationIdentifier",
+            "Value": "9bf5ab60fdd4473e80f9f3656768d9e0"
+         },
+         {
+            "Key": "ApplicationAuthor",
+            "Value": "MURTI"
+         },
+         {
+            "Key": "ApplicationCreatedVersion",
+            "Value": "23.2"
+         },
+         {
+            "Key": "AccessIdentifier",
+            "Value": "e918a24acabb4164ae3e46290caf0a3b"
+         },
+         {
+            "Key": "ApplicationModifiedTimeStamp",
+            "Value": "638585373056523904"
+         },
+         {
+            "Key": "ApplicationModifiedVersion",
+            "Value": "23.2"
+         },
+         {
+            "Key": "ProjectManager",
+            "Value": "v3"
+         },
+         {
+            "Key": "TopologyState",
+            "ValueCollection": [
+               "Hardware",
+               "Model"
+            ]
+         }
+      ]
+   }
+]
