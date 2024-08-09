@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=DigitalSP2.rta
+RTP=1
+
+[1]
+ID=a8499f18-8c21-406e-b680-69294f4848be
+Type=DSRTPC
+ServiceID=1
+TraceFile=DigitalSP2.trc
+
