@@ -2,16 +2,15 @@
 
 ## Overview
 
-This Simulink model simulates various features of a car for a Hardware-in-the-Loop (HIL) testing environment using the dSPACE SCALEXIO system. The model includes controls for ignition, gearbox, acceleration, braking, steering angle, indicators, and hand brake functionality. The HIL setup enables real-time simulation and communication between the Simulink model and Arduino Uno, which interfaces with the physical output components (e.g., servos, LEDs). The model is configured for use in ConfigurationDesk and ControlDesk, allowing seamless input manipulation and output monitoring.
+This project presents a Simulink model designed to simulate various features of a car for Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HIL) testing environments utilizing the dSPACE SCALEXIO system. The model incorporates controls for ignition, gearbox, acceleration, braking, steering angle, indicators, and hand brake functionality. The HIL setup allows real-time simulation and communication between the Simulink model and the dSPACE SCALEXIO system, with output signal pins connected to an Arduino Mega for controlling physical components (e.g., servos, LEDs). The model is configured for use in ConfigurationDesk and ControlDesk, enabling seamless input manipulation and output monitoring.
 
 ## Project Structure
 
 - **Simulink Model**: Contains subsystems for each car feature.
 - **ConfigurationDesk Setup**: Configures I/O channels for the dSPACE SCALEXIO and Simulink interface.
 - **ControlDesk Layout**: Provides a GUI for live input/output monitoring and control.
-- **Arduino Interface**: Communicates with the dSPACE SCALEXIO system to control physical components.
-- **Signal Generation Basics**: All the basics of signal generation project file are provided with the docx file available in the [GitHub repository](https://github.com/thippeswammy/dSPACE/tree/main/dSPACE_Basics).
-
+- **Arduino Interface**: Interfaces with the dSPACE SCALEXIO system to control physical components through output pins.
+- **Signal Generation Basics**: Basic signal generation project file is provided with the docx file available in the [GitHub repository](https://github.com/thippeswammy/dSPACE/tree/main/dSPACE_Basics).
 
 ## System Requirements
 
@@ -20,7 +19,7 @@ This Simulink model simulates various features of a car for a Hardware-in-the-Lo
   - dSPACE ConfigurationDesk and ControlDesk
 - **Hardware**:
   - dSPACE SCALEXIO HIL System
-  - Arduino Uno
+  - Arduino Mega
   - Servo Motors, LEDs, and other required components
 
 ## Model Features and Specifications
@@ -39,7 +38,7 @@ This Simulink model simulates various features of a car for a Hardware-in-the-Lo
 
 ### Functional Description
 
-1. **Ignition**: Toggles vehicle’s ON/OFF state, driving a digital output for voltage control (0V for OFF, 5V for ON).
+1. **Ignition**: Toggles the vehicle’s ON/OFF state, driving a digital output for voltage control (0V for OFF, 5V for ON).
 2. **Gearbox**: Reads input values to set vehicle gear (Reverse, Neutral, Forward) using specified ranges and outputs.
 3. **Acceleration**: Scales input to match a 0-100 speed output, with the range between 0-1023 for smooth acceleration.
 4. **Car Brake**: If the input value is below 200, braking is engaged, reducing the speed to zero.
@@ -51,30 +50,30 @@ This Simulink model simulates various features of a car for a Hardware-in-the-Lo
 
 ### 1. Simulink Model Development
 
-   - Use blocks to model each subsystem representing vehicle features.
-   - Define input ranges, output signals, and conversion logic.
-   - Integrate signal processing and control algorithms based on specified input-output requirements.
+- Use blocks to model each subsystem representing vehicle features.
+- Define input ranges, output signals, and conversion logic.
+- Integrate signal processing and control algorithms based on specified input-output requirements.
 
 ### 2. dSPACE ConfigurationDesk Setup
 
-   - Configure SCALEXIO I/O channels and link the Simulink model inputs/outputs with dSPACE I/O pins.
-   - Use I/O mapping to control signal communication with the Arduino.
+- Configure SCALEXIO I/O channels and link the Simulink model inputs/outputs with dSPACE I/O pins.
+- Use I/O mapping to control signal communication to Arduino Mega output pins.
 
 ### 3. ControlDesk Interface
 
-   - Set up a custom ControlDesk layout for real-time input manipulation and output monitoring.
-   - Define parameters for each feature to allow controlled testing.
+- Set up a custom ControlDesk layout for real-time input manipulation and output monitoring.
+- Define parameters for each feature to allow controlled testing.
 
-### 4. Arduino Uno Integration
+### 4. Arduino Mega Integration
 
-   - Connect Arduino Uno to dSPACE SCALEXIO via appropriate communication ports.
-   - Program the Arduino to read inputs from dSPACE and control physical components (servos, LEDs).
+- Connect Arduino Mega to dSPACE SCALEXIO output pins via appropriate connections.
+- Program the Arduino to activate physical components (servos, LEDs) based on the output signals from dSPACE.
 
 ## Testing and Validation
 
 1. **Simulink Simulation**: Test the model in Simulink to validate each feature’s behavior and interactions.
 2. **HIL Testing**: Connect to the dSPACE SCALEXIO system, then use ConfigurationDesk and ControlDesk to monitor and modify inputs.
-3. **Arduino Verification**: Verify that the Arduino correctly interprets signals from dSPACE and activates physical components accordingly.
+3. **Arduino Verification**: Verify that the Arduino Mega correctly interprets signals from dSPACE and activates physical components accordingly.
 
 ## Troubleshooting
 
@@ -84,7 +83,6 @@ This Simulink model simulates various features of a car for a Hardware-in-the-Lo
 
 ## Additional Notes
 
-- Ensure Arduino sketch is correctly configured to interpret the signal range and control outputs based on the model.
+- Ensure the Arduino sketch is correctly configured to interpret the signal range and control outputs based on the model.
 - Regularly save and version control the Simulink model and ConfigurationDesk setup to track changes.
-
 
