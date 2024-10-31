@@ -10,7 +10,8 @@ This Simulink model simulates various features of a car for a Hardware-in-the-Lo
 - **ConfigurationDesk Setup**: Configures I/O channels for the dSPACE SCALEXIO and Simulink interface.
 - **ControlDesk Layout**: Provides a GUI for live input/output monitoring and control.
 - **Arduino Interface**: Communicates with the dSPACE SCALEXIO system to control physical components.
-- **Signal Generation Basics**: All the basics of signal generation are provided in the .docx file available in the GitHub repository.
+- **Signal Generation Basics**: All the basics of signal generation are provided in the .docx file available in the [GitHub repository](https://github.com/thippeswammy/dSPACE/tree/main/dSPACE_Basics).
+
 
 ## System Requirements
 
